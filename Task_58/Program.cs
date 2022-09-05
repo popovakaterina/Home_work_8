@@ -54,7 +54,7 @@ void Proisv (int [,] matrix1, int [,] matrix2, int[,] result)
         for (int j = 0; j < result.GetLength(1); j++)
         {
             int proisv = 0;
-            for (int l = 0; l < matrix1.GetLength(1); l++)
+            for (int l = 0; l < matrix1.GetLength(1); l++) // цикл по столбцу первой матрицы, тк идет умножение столбца на строку
             {
                 proisv = proisv + (matrix1[i,l]*matrix2[l,j]);
             }
