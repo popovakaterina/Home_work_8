@@ -56,9 +56,9 @@ static void SumMatrixLines(int[,] matr) // Сумма элементов чис�
     Console.WriteLine("Строка с минимальной суммой элементов - " +"("+ line + ")");
 }
 
-Console.Write("Ввседите количество строк массива (m): ");
+Console.Write("Введите количество строк массива (m): ");
 int m = Convert.ToInt32(Console.ReadLine());
-Console.Write("Ввседите количество столбцов массива (n): ");
+Console.Write("Введите количество столбцов массива (n): ");
 int n = Convert.ToInt32(Console.ReadLine());
 int[,] matrix = new int[m, n];
 FillArraay(matrix);
